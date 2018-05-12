@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="p52.xsd">
+    <Name>Sagar Gohil</Name>
+    <Address>Bhavnagar</Address>
+    <Std>12</Std>
+    <Per>70.00</Per>
+</Student>

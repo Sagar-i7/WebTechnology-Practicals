@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical 4.3</title>
+<script type="text/javascript">
+function validate(form)
+{
+  var username = form.Username.value;
+  var password = form.Password.value;
+  if (username.length === 0)
+  {
+    alert("You Must Enter Username...");
+    return false;
+  }
+  if (password.length === 0)
+  {
+    alert("You Must Enter Password...");
+    return false;
+  }
+  if (password.length<8)
+  {
+    alert("Password must be of 8 Characters...");
+    return false;
+  }
+  if (password.indexOf("@")==-1)
+  {
+    alert("Password must have special character...");
+    return false;
+  }
+  if (password.indexOf("$")==-1)
+  {
+    alert("Password must have special character...");
+    return false;
+  }
+  if (password.indexOf("#")==-1)
+  {
+    alert("Password must have special character...");
+    return false;
+  }
+  return true;
+}
+</script>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form method="POST" onsubmit="return validate(this);">
+        Username: <input type="text" name="Username"><br>
+        Password: <input type="password" name="Password"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

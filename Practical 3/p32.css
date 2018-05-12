@@ -1,0 +1,8 @@
+h4{ text-align:center;  }
+h4{ color : blue ; }
+h4{ padding : 50px; }
+h4{ border : 2px solid red; }
+h4{ margin : 50px 50px 50px 50px; }
+ul {	list-style-type : decimal; 
+   	list-style-position : inside;}
+table{ border : 2px solid skyblue; padding : 5px; }

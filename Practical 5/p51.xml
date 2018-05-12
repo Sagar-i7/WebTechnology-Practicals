@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="p51.css"?>
+<!DOCTYPE BANK SYSTEM "p51.dtd">
+<BANK>
+    <ACCOUNT>
+        <Acc_name>Sagar Gohil</Acc_name>
+        <Acc_no>150210107019</Acc_no>
+        <Branch>Nilambag</Branch>
+        <IFSC_no>AYFJ583062</IFSC_no>
+    </ACCOUNT>
+    <ACCOUNT>
+        <Acc_name>Pratik Sanghani</Acc_name>
+        <Acc_no>150210107058</Acc_no>
+        <Branch>Iscon</Branch>
+        <IFSC_no>ADPH8432051</IFSC_no>
+    </ACCOUNT>
+    <ACCOUNT>
+        <Acc_name>Shyam Kanani</Acc_name>
+        <Acc_no>150210107029</Acc_no>
+        <Branch>GMDC</Branch>
+        <IFSC_no>BPHN912183</IFSC_no>
+    </ACCOUNT>
+    <ACCOUNT>
+        <Acc_name>Divyesh Makwana</Acc_name>
+        <Acc_no>150210107034</Acc_no>
+        <Branch>Anand-nagar</Branch>
+        <IFSC_no>VDK0316116</IFSC_no>
+    </ACCOUNT>
+</BANK>

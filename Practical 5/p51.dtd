@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT BANK(ACCOUNT)*>
+<!ELEMENT ACCOUNT(Acc_name,Acc_no,Branch,IFSC_no)>
+<!ELEMENT Acc_name(#PCDATA)>
+<!ELEMENT Acc_no(#PCDATA)>
+<!ELEMENT Branch(#PCDATA)>
+<!ELEMENT IFSC_no(#PCDATA)>
